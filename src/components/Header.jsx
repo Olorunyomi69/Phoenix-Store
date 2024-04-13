@@ -15,8 +15,8 @@ const Header = () => {
   })
 
   return (
-    <header className={`${isActive ? 'bg-sky-50 py-4 shadow-md' : 'bg-blue-200 py-6' } fixed w-full z-10 transition-all`}>
-      <div className="container mx-auto flex item-center justify-between h-full">
+    <header className={`${isActive ? 'bg-sky-50 py-4 shadow-md' : 'bg-blue-200 py-6' } mx-auto fixed w-full z-10 transition-all`}>
+      <div className="container mx-auto flex px-4 item-center justify-between h-full">
         <Link to={"/"}>
           <div>
             <h1 className="text-3xl font-bold">Phoenix Store</h1>

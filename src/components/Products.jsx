@@ -12,7 +12,7 @@ const Products = ({ product }) => {
     <div>
       <div className="border bg-[#fcfcf7] rounded-3xl h-[300px] mb-4 relative overflow-hidden group transition">
         <div className="w-full h-full flex justify-center items-center">
-          <div className="w-[200px] mx-auto flex jsutify-center items-center">
+          <div className="w-[200px] mx-auto flex justify-center items-center">
             <img
               className="max-h-[160px] group-hover:scale-110 transition duration-300"
               src={image}

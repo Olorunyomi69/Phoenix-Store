@@ -13,14 +13,14 @@ const CartProvider = ({ children }) => {
         return accumulator + currentItem.price * currentItem.amount
     }, 0);
     setTotal(total);
-  })
+  }, [cart])
 
   useEffect(() => {
     if (cart) {
       const amount = cart.reduce((accumulator, currentItem) => {
         return accumulator + currentItem.amount;
       }, 0);
-      setItemAmount(amount);
+      setItemAmount(amount);  
     }
   }, [cart]);
 
